@@ -1,4 +1,7 @@
-/venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
 .env
-/extracted_files
-/pycache
+/tmp/
