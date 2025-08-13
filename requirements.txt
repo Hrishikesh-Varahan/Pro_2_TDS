@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+openai
+python-dotenv
+zipfile36
+python-multipart
+pandas 
