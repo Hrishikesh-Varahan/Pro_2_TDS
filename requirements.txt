@@ -1,7 +1,13 @@
-fastapi
-uvicorn
-openai
-python-dotenv
-zipfile36
-python-multipart
-pandas 
+fastapi==0.110.0
+uvicorn==0.29.0
+python-multipart==0.0.9
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+scikit-learn==1.4.2
+lxml==5.2.1
+requests==2.32.3
+# Optional (if you keep llm.py)
+openai==1.30.5
+python-dotenv==1.0.1
+duckdb==1.1.3
