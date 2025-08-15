@@ -201,6 +201,10 @@ def route_task(questions_txt: str, attachments: dict) -> Tuple[object, int]:
 
 
 # ----------- API endpoint (/api/) -----------
+@app.get("/")
+async def root():
+    return {"message": "Server is running. Send a POST request with questions.txt."}
+
 @app.post("/")
 async def api_root(
     files: Optional[List[UploadFile]] = File(None)
